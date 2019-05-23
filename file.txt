@@ -1,0 +1,2 @@
+python3 -m venv --without-pip virtual && source virtual/bin/activate && curl https://bootstrap.pypa.io/get-pip.py | python3 && pip install flask && pip install flask-bootstrap && pip install flask-script
+chmod a+x start.sh
